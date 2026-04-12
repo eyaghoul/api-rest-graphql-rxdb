@@ -1,0 +1,32 @@
+[
+  {
+    "id": "eaa4b082-fc69-49f0-a5fe-ebd0916559a8",
+    "name": "ahmed",
+    "email": "ahmed@gmail.com",
+    "password": "ahmed"
+  },
+  {
+    "id": "9a097a69-a187-4f05-916c-7e905a5c095c",
+    "name": "Ali sfar",
+    "email": "ali@example.com",
+    "password": "1234567"
+  },
+  {
+    "id": "5e43b495-3407-4c17-ae8c-da00755ca5ff",
+    "name": "Alice",
+    "email": "alice@gmail.com",
+    "password": "hi"
+  },
+  {
+    "id": "1c5d69cf-d35b-4d4a-9945-5e664c20e7df",
+    "name": "Eya",
+    "email": "eya@example.com",
+    "password": "eya123"
+  },
+  {
+    "id": "101b55a5-b318-4ec9-b4b8-a7c945f40164",
+    "name": "zaynab",
+    "email": "zaynab@example.com",
+    "password": "zaynab123"
+  }
+]

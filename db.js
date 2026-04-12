@@ -27,7 +27,7 @@ const deviceSchema = {
   type: 'object',
   properties: {
     id: { type: 'string', maxLength: 100 },
-    userId: { type: 'string', minLength: 1 },
+    userId: { type: 'string', maxLength: 100 },
     name: { type: 'string', minLength: 1, maxLength: 120 },
     type: {
       type: 'string',

@@ -6,7 +6,7 @@ password: String!
 }
 type Device{
     id: String!
-    userid: String !
+    userId: String !
     name:String!
     type:String!
     serialNumber:String!
@@ -15,14 +15,14 @@ type Device{
 type Query {
 user(id: String!): User
 users: [User!]!
-devicesByUserID(userid: String!): [Device!]!
+devicesByUser(userId: String!): [Device!]!
 devices: [Device!]!
 }
 type Mutation {
 addUser(name: String!, email: String!, password: String!): User
 updateUser(id: String!, name: String!, email: String!, password: String!): User
 deleteUser(id: String!): Boolean!
-addDevice(userid: String!, name: String!, type: String!, serialNumber: String!, status: String!): Device
+addDevice(userId: String!, name: String!, type: String!, serialNumber: String!, status: String!): Device
 updateDevice(id:String!,name:String!,type:String!,serialNumber:String!,status:String!):Device
 deleteDevice(id:String!):Boolean!
 

@@ -88,13 +88,9 @@ const { devices } = await dbPromise;
 const docs = await devices.find().exec();
 res.json(docs.map((doc) => doc.toJSON()));
 });
-app.get('/devices/:id', async (req, res) => {
-const { devices } = await dbPromise;
-const doc = await devices.findOne(req.params.id).exec();        
-if (!doc) {
-return res.status(404).json({ error: 'Appareil non trouvé' });
-}
-res.json(doc.toJSON());
+app.get('/users/:id/devices', async (req, res) => {
+const { devices } = await userResolver.getUserDevices({ userId: req.params.id });
+res.json(devices);
 });
 app.delete('/devices/:id', async (req, res) => {
 const deleted = await userResolver.deleteDevice({ id: req.params.id });     

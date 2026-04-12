@@ -22,7 +22,7 @@ async function getDevicesByUser(devices, userId) {
   return docs.map(d => d.toJSON());
 }
 
-async function deleteDevice(devices, id) {
+async function removeDevice(devices, id) {
   const doc = await devices.findOne(id).exec();
   if (!doc) return false;
 
@@ -135,5 +135,13 @@ updateDevice: async ({ id, name, type, serialNumber, status }) => {
 },
 deleteDevice: async ({ id }) => {
     const { devices} = await dbPromise;
-    return deleteDevice(devices, id);    
-}}
+    return removeDevice(devices, id);    
+},
+ User: {
+    devices: async (user) => {
+      const { devices } = await dbPromise;
+      return getDevicesByUser(devices, user.id);
+    }
+  }
+
+}

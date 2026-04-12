@@ -95,6 +95,7 @@ await db.users.bulkInsert(initialUsers);
 return {
 db,
 users: db.users,
+devices: db.devices,
 persistUsers,
 createId: () => randomUUID()
 };

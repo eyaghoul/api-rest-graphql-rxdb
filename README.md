@@ -48,6 +48,6 @@ REST:
 
 ## tester devices :
 get devices : ![get devices](./img/getdevices.png)
-post devices : ![post devices](./img/postdevices.png)
+post devices : ![post devices](./img/postdevic.png)
  ![result](./img/r1.png)
 delete device : ![delete device](./img/d2.png)

@@ -2,24 +2,24 @@
 
 
 ## 11. Tester les opérations GraphQL avec Postman, Insomnia ou toute interface GraphQL compatible HTTP : 
- GET http://localhost:5000/users ![GET http://localhost:5000/users](./img/1.png)
+ GET users ![GET users](./img/1.png)
 
  result : 
- ![GET http://localhost:5000/users](./img/2.png)
+ ![GET users ](./img/2.png)
 
-GET http://localhost:5000/users/<id>
-![GET http://localhost:5000/users/<id> ](./img/3.png)
+GET users/:id
+![GET users/<id> ](./img/3.png)
 result:
-![GET http://localhost:5000/users/<id>](./img/4.png)
+![GET /users/<id>](./img/4.png)
 
-PUT http://localhost:5000/users/<id>![PUT http://localhost:5000/users/<id>](./img/5.png)
+PUT ![PUT /users/<id>](./img/5.png)
 
-result: ![PUT http://localhost:5000/users/<id>](./img/6.png)
+result: ![PUT /users/<id>](./img/6.png)
 
 
-DELETE http://localhost:5000/users/<id>![DELETE http://localhost:5000/users/<id>](./img/7.png)
+DELETE /users/<id>![DELETE /<id>](./img/7.png)
 
-result: ![DELETE http://localhost:5000/users/<id>](./img/8.png)
+result: ![DELETE users/<id>](./img/8.png)
 
 
 

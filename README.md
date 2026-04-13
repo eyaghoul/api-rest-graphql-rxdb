@@ -37,7 +37,7 @@ REST:
 ## Tester la mise à jour et la suppression d’un utilisateur avec les deux approches.
 
 - REST
-§[REST](./img/7.png)
+![REST](./img/7.png)
 ![REST](./img/8.png)
 - graphHql
 ![graphHql](./img/delete1.png)

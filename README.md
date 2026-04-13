@@ -1,0 +1,53 @@
+# TP6 : Création d'une API REST/GraphQL
+
+
+## 11. Tester les opérations GraphQL avec Postman, Insomnia ou toute interface GraphQL compatible HTTP : 
+ GET http://localhost:5000/users ![GET http://localhost:5000/users](./img/1.png)
+
+ result : 
+ ![GET http://localhost:5000/users](./img/2.png)
+
+GET http://localhost:5000/users/<id>
+![GET http://localhost:5000/users/<id> ](./img/3.png)
+result:
+![GET http://localhost:5000/users/<id>](./img/4.png)
+
+PUT http://localhost:5000/users/<id>![PUT http://localhost:5000/users/<id>](./img/5.png)
+
+result: ![PUT http://localhost:5000/users/<id>](./img/6.png)
+
+
+DELETE http://localhost:5000/users/<id>![DELETE http://localhost:5000/users/<id>](./img/7.png)
+
+result: ![DELETE http://localhost:5000/users/<id>](./img/8.png)
+
+
+
+## Créer au moins deux utilisateurs avec REST, puis vérifier leur présence avec GraphQL. :
+graphql  user 1:![user1](./img/adduser.png)  
+user2 : ![user2](./img/add2.png)
+![users](./img/users.png)
+
+## Créer au moins un utilisateur avec GraphQL, puis vérifier sa présence avec REST. :
+REST: 
+![REST](./img/rest.png)
+![result](./img/usersrest.png)
+
+
+## Tester la mise à jour et la suppression d’un utilisateur avec les deux approches.
+
+- REST
+§[REST](./img/7.png)
+![REST](./img/8.png)
+- graphHql
+![graphHql](./img/delete2.png)
+![graphHql](./img/rdelete.png)
+
+
+
+
+## tester devices :
+get devices : ![get devices](./img/getdevices.png)
+post devices : ![post devices](./img/postdevices.png)
+ ![result](./img/r1.png)
+delete device : ![delete device](./img/d2.png)

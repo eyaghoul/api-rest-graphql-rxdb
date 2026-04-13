@@ -40,7 +40,7 @@ REST:
 §[REST](./img/7.png)
 ![REST](./img/8.png)
 - graphHql
-![graphHql](./img/delete2.png)
+![graphHql](./img/delete1.png)
 ![graphHql](./img/rdelete.png)
 
 
